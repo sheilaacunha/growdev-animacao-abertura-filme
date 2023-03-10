@@ -4,7 +4,7 @@ main {
     position: relative;
 
 }
-
+/* 
 .divFoto {
     position: absolute;
     bottom: 0;
@@ -16,9 +16,9 @@ main {
     align-items: center;
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
-    }
+    } */
 
-.divFoto div {
+/* .divFoto div {
     background-image: url(../img/gato1.jpg);
     background-size: contain;
     border-radius: 50%;
@@ -26,8 +26,8 @@ main {
     height: 200px;
     animation: shadow 5s infinite;
     
-}
-
+} */
+/* 
 @keyframes shadow {
  
   50% {  box-shadow: #733702 2px 4px 4px, -4px -4px 4px #5c2d04;}
@@ -43,7 +43,7 @@ main {
     100% {
         transform: translatey(0rem);
     }
-}
+} */
 
 .content-container {
     flex-grow: 1;
