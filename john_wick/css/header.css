@@ -1,9 +1,15 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
+
 }
 
-.links-container{
+nav {
+    display: none;
+}
+
+.links-container {
+
     display: flex;
     gap: 32px;
 }
@@ -14,14 +20,56 @@ header{
     transition: all 1s;
 }
 
-.links-container a:hover{
-    background-color: #E62721;
+.links-container a:hover {
+    background: radial-gradient(circle, #D9AB23, #A6600A, #733702);
 }
 
-@media (max-width:768px){
-    .links-container{
+.divEstreia {
+    display: flex;
+    flex-direction: column;
+    animation: estreia 3s;
+    animation-delay: 3s;
+
+}
+
+.divEstreia h2 {
+    font-size: 2rem;
+    color: #000;
+    text-shadow: 2px 2px 2px #733702, 0 0 1em #D9AB23, 0 0 0.2em #733702, #BF820F 0 -2px;
+
+}
+
+.divEstreia span {
+    color: #fff;
+    text-align: center;
+
+}
+
+@keyframes estreia {
+    0% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+
+
+}
+
+@media (max-width:768px) {
+    nav {
+        display: flex;
+    }
+
+    .links-container {
+
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
@@ -37,7 +85,7 @@ header{
         transition: all 1s;
     }
 
-    .menu-burger-container.active ~ .links-container{
+    .menu-burger-container.active~.links-container {
         opacity: 1;
         transform: translateX(0%);
     }
