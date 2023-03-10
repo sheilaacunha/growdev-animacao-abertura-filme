@@ -76,16 +76,10 @@
                 O felino favorito de todos, amante de leche, fanfarrão e desafia o medo retorna em uma nova aventura
                  o ousado gato fora da lei Gato de Botas descobre que sua paixão pelo perigo e o desrespeito pela segurança cobraram seu preço.
             </p>
-            <a class="movie-button botao-traile" >
+            <a class="movie-button botao-traile" data-bs-target="#modalVideo">
                 Assista o Trailer &RightArrow;
             </a>
-            <div class="conteudo-modal">
-                <span class="fechar-modal">X</span>
-                <iframe id="video" width="560" height="315" src="https://youtube.com/embed/qtHcEfpYIow"
-                    title="Trailer oficial" frameboarder="1"
-                    allow="accelerometer; autopaly; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+            
         </div>
         
         <div class="divFoto">
@@ -116,7 +110,14 @@
             </ul>
         </div>
     </main>
-        
+<!-- modal -->
+    <div class="conteudo-modal"  id="modalVideo">
+        <span class="fechar-modal">X</span>
+        <iframe id="video" width="560" height="315" src="https://youtube.com/embed/qtHcEfpYIow"
+            title="Trailer oficial" frameboarder="1"
+            allow="accelerometer; autopaly; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
     <footer>
         Copyright 2023 © | Gatos e cia Growdev
     </footer>
