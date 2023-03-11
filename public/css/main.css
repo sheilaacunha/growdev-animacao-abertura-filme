@@ -4,7 +4,7 @@ main {
     position: relative;
 
 }
-/* 
+
 .divFoto {
     position: absolute;
     bottom: 0;
@@ -16,22 +16,25 @@ main {
     align-items: center;
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
-    } */
+}
 
-/* .divFoto div {
+.divFoto div {
     background-image: url(../img/gato1.jpg);
     background-size: contain;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     animation: shadow 5s infinite;
-    
-} */
-/* 
-@keyframes shadow {
- 
-  50% {  box-shadow: #733702 2px 4px 4px, -4px -4px 4px #5c2d04;}
+
 }
+
+@keyframes shadow {
+
+    50% {
+        box-shadow: #733702 2px 4px 4px, -4px -4px 4px #5c2d04;
+    }
+}
+
 @keyframes float {
     0% {
         transform: translatey(0rem);
@@ -40,10 +43,11 @@ main {
     50% {
         transform: translatey(-2rem);
     }
+
     100% {
         transform: translatey(0rem);
     }
-} */
+}
 
 .content-container {
     flex-grow: 1;
@@ -101,10 +105,11 @@ main {
     border: none;
     color: #fff;
 }
-.movie-button-x{
+
+.movie-button-x {
     width: 30px;
     height: 30px;
-    border-radius:0;
+    border-radius: 0;
 }
 
 @keyframes mymove {
@@ -189,7 +194,8 @@ main {
         display: none;
     }
 
-    .divFoto,.divEstreia {
+    .divFoto,
+    .divEstreia {
         display: none;
     }
 }
