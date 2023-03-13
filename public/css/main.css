@@ -1,5 +1,20 @@
+.divSister{
+    position: absolute;
+    right:  29%;
+    bottom: 13%;
+    width: 220px;
+    height: 240px;
+    border-radius: 30%;
+    background-color: #000;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .divFoto {
+    position: relative;
     margin-right: 0%;
     position: absolute;
     right: 30%;
@@ -16,6 +31,7 @@
     animation: shadow 5s infinite;
    
 }
+  
 
 @keyframes shadow {
 
@@ -30,7 +46,7 @@
     }
 
     50% {
-        transform: translatey(-2rem);
+        transform: translatey(-1rem);
     }
 
     100% {
@@ -86,7 +102,18 @@
     font-weight: 100;
     color: white;
 }
-
+.secretButton{
+    height: 70px;
+}
+.secretButton,.movie-button{
+    border: none;
+    width: 200px;
+    background: radial-gradient(circle, #D9AB23, #A6600A, #733702);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 200;
+}
 .movie-button {
     height: 40px;
     width: 200px;
@@ -94,15 +121,11 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    font-weight: 200;
-    border-radius: 10px;
-    background: radial-gradient(circle, #D9AB23, #A6600A, #733702);
     margin-top: 30px;
     animation: mymove 5s infinite;
     animation-delay: 2s;
-    border: none;
-    color: #fff;
-    cursor: pointer;
+   
+  
 }
 
 .movie-button-x {
@@ -193,7 +216,7 @@
         display: none;
     }
 
-    .divFoto,
+    .divFoto,.divSister
     .divEstreia {
         display: none;
     }

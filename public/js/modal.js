@@ -27,3 +27,8 @@ openMovieButton.addEventListener('click', openModal)
 closeMovieButton.addEventListener('click', closeModal)
 
 
+function myFunction() {
+    document.querySelector(".divSister").style.opacity = "0.1";
+  }
+
+
