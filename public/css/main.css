@@ -1,20 +1,9 @@
-main {
-    flex-grow: 1;
-    display: flex;
-    position: relative;
-
-}
 
 .divFoto {
+    margin-right: 0%;
     position: absolute;
-    bottom: 0;
-    right: 10%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+    right: 30%;
+    top: 50%;
     animation: float 6s ease-in-out infinite;
 }
 
@@ -25,7 +14,7 @@ main {
     width: 200px;
     height: 200px;
     animation: shadow 5s infinite;
-
+   
 }
 
 @keyframes shadow {
@@ -50,15 +39,11 @@ main {
 }
 
 .content-container {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
+    padding: 0 30px;
 }
 
 
-.content-container h1 {
+.principal-title-style {
     font-size: 7rem;
     display: flex;
     flex-direction: column;
@@ -66,7 +51,6 @@ main {
     color: #A6600A;
     font-family: 'Rakkas', cursive;
     text-shadow: 2px 2px 2px black, 0 0 1em #BF820F, 0 0 0.2em #733702, #D9AB23 0 -4px;
-
 }
 
 .content-container h1 span {
@@ -83,14 +67,28 @@ main {
     transform: translateY(-20px)
 }
 
+.plus-section-style {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.plus-section-content-style {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    justify-content: end;
+}
+
 .movie-text {
-    width: 550px;
+    max-width: 550px;
     font-size: 1.1rem;
     font-weight: 100;
+    color: white;
 }
 
 .movie-button {
-    height: 80px;
+    height: 40px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -104,6 +102,7 @@ main {
     animation-delay: 2s;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .movie-button-x {
@@ -119,21 +118,20 @@ main {
 }
 
 .social-container {
-    width: 48px;
+    width: 40%;
 }
 
 .social-container ul {
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
     gap: 20px;
+   
 }
 
 .social-container li {
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,6 +168,7 @@ main {
     .content-container {
         justify-content: flex-end;
         margin-bottom: 50px;
+        
     }
 
     .content-container h1 {

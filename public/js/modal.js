@@ -1,19 +1,29 @@
-function openModal(mn) {
-    let modal = document.getElementById(mn);
 
-    if (typeof modal == 'undefined' || modal === null)
-        return;
 
-    modal.style.display = 'Block';
-    document.body.style.overflow = 'hidden';
+const modal = document.getElementById('dv-modal')
+const openMovieButton = document.getElementById('movie-button')
+const closeMovieButton = document.getElementById('close-button')
+
+
+function openModal() {
+    modalDefaultBehavior = true
+
+    if (modalDefaultBehavior) {
+        modal.style.display = 'flex'
+    }
 }
 
-function closeModal(mn) {
-    let modal = document.getElementById(mn);
+function closeModal() {
+    modalDefaultBehavior = false
 
-    if (typeof modal == 'undefined' || modal === null)
-        return;
-
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    if (!modalDefaultBehavior) {
+        modal.style.display = 'none'
+    }
 }
+
+
+
+openMovieButton.addEventListener('click', openModal)
+closeMovieButton.addEventListener('click', closeModal)
+
+
