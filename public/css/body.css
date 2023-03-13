@@ -3,8 +3,9 @@ html,
 .general-container {
     background: linear-gradient(90deg, #000, #000D 35%, #0000), url(../img/151044.jpg);
     height: 100vh;
-    animation: zoom 3s;   
+    animation: zoom 3s;
 }
+
 @keyframes zoom {
     0% {
         transform: scale(3);
@@ -18,11 +19,17 @@ html,
 
 @media (max-width:768px) {
     .general-container {
-        padding: 30px 30px 25px 30px;
-        background-image: url(../img/151044.jpg);
+
         background-size: cover;
         background-position: center;
-    }
-    
-}
 
+    }
+
+    body {
+        padding: 30px 30px 25px 30px;
+        background-image: url(../img/151044.jpg);
+        background-color: #0006;
+        background-blend-mode: darken;
+    }
+
+}
