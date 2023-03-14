@@ -21,8 +21,6 @@ function closeModal() {
     }
 }
 
-
-
 openMovieButton.addEventListener('click', openModal)
 closeMovieButton.addEventListener('click', closeModal)
 

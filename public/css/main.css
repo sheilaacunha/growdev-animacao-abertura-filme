@@ -1,10 +1,10 @@
 .divSister{
     position: absolute;
-    right:  34%;
-    bottom: 10%;
-    width: 220px;
-    height: 240px;
-    border-radius: 30%;
+    right:  24%;
+    bottom: 2%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
     background-color: #000;
     border: 1px solid black;
     display: flex;
@@ -17,8 +17,8 @@
     position: relative;
     margin-right: 5%;
     position: absolute;
-    right: 30%;
-    top: 55%;
+    right: 20%;
+    top: 72%;
     animation: float 6s ease-in-out infinite;
 }
 
@@ -26,8 +26,8 @@
     background-image: url(../img/gato1.jpg);
     background-size: contain;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     animation: shadow 5s infinite;
    
 }
@@ -55,7 +55,7 @@
 }
 
 .content-container {
-    padding: 0 30px;
+    padding: 0 30px ;
 }
 
 
@@ -70,9 +70,9 @@
 }
 
 .content-container h1 span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
-    transform: translateY(30px);
+    /* transform: translateY(30px); */
     color: #fff;
 }
 
@@ -86,14 +86,19 @@
 .plus-section-style {
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: start;
+  
+    margin-top: 10px;
+  
 }
 
 .plus-section-content-style {
     display: flex;
-    width: 50%;
-    justify-content: center;
-    justify-content: end;
+    width: 40%;
+    height: 20%;
+    justify-content: start;  
+   
+    margin-left: 2%;
 }
 
 .movie-text {
@@ -103,7 +108,7 @@
     color: white;
 }
 .secretButton{
-    height: 70px;
+    height: 50px;
 }
 .secretButton,.movie-button{
     border: none;
@@ -121,7 +126,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 2%;
     animation: mymove 5s infinite;
     animation-delay: 2s;
    
@@ -148,13 +153,13 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    gap: 20px;
-   
+    gap: 20px;  
+    
 }
 
 .social-container li {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;

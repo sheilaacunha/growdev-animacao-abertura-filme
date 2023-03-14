@@ -1,7 +1,9 @@
 html,
 
 .general-container {
-    background: linear-gradient(90deg, #000, #000D 35%, #0000), url(../img/151044.jpg);
+    background: linear-gradient(90deg, #000, #000D 35%, #0000), url(../img/gato4.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     animation: zoom 3s;
 }
