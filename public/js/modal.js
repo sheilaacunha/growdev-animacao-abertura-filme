@@ -28,7 +28,7 @@ closeMovieButton.addEventListener('click', closeModal)
 
 
 function myFunction() {
-    document.querySelector(".divSister").style.opacity = "0.1";
+    document.querySelector(".divSister").style.background= "transparent";
   }
 
 
