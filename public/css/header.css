@@ -84,13 +84,23 @@ nav {
         font-size: 2.5rem;
         background-color: #000;
         transform: translateX(100%);
-        opacity: 0;
-        z-index: 1;
+        opacity: 1;
+        z-index: 2;
         transition: all 1s;
     }
 
     .menu-burger-container.active~.links-container {
         opacity: 1;
         transform: translateX(0%);
+    }
+    .divEstreia{
+        position: absolute;
+        bottom: -500px;
+        width: 100%;
+        right: 10px;
+        text-align: center;
+    }
+    header > a > img{
+        display: none;
     }
 }

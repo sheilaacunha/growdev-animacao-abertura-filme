@@ -1,9 +1,9 @@
-.divSister{
+.divSister {
     position: absolute;
-    right:  24%;
-    bottom: 2%;
-    width: 180px;
-    height: 180px;
+    right: 24%;
+    bottom: 1%;
+    width: 208px;
+    height: 207px;
     border-radius: 50%;
     background-color: #000;
     border: 1px solid black;
@@ -15,10 +15,10 @@
 
 .divFoto {
     position: relative;
-    margin-right: 5%;
+    /* margin-right: 5%; */
     position: absolute;
-    right: 20%;
-    top: 72%;
+    right: 24%;
+    top: 67%;
     animation: float 6s ease-in-out infinite;
 }
 
@@ -26,12 +26,12 @@
     background-image: url(../img/gato1.jpg);
     background-size: contain;
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 189px;
+    height: 189px;
     animation: shadow 5s infinite;
-   
+
 }
-  
+
 
 @keyframes shadow {
 
@@ -46,7 +46,7 @@
     }
 
     50% {
-        transform: translatey(-1rem);
+        transform: translatey(-0.5rem);
     }
 
     100% {
@@ -55,7 +55,7 @@
 }
 
 .content-container {
-    padding: 0 30px ;
+    padding: 0 30px;
 }
 
 
@@ -87,15 +87,15 @@
     width: 100%;
     display: flex;
     justify-content: start;
-       margin-top: 30px;
-  
+    margin-top: 30px;
+
 }
 
 .plus-section-content-style {
     display: flex;
     width: 40%;
     height: 20%;
-    justify-content: start;  
+    justify-content: start;
     margin-left: 2%;
 }
 
@@ -105,10 +105,14 @@
     font-weight: 100;
     color: white;
 }
-.secretButton{
+
+.secretButton {
     height: 50px;
+    
 }
-.secretButton,.movie-button{
+
+.secretButton,
+.movie-button {
     border: none;
     width: 200px;
     background: radial-gradient(circle, #D9AB23, #A6600A, #733702);
@@ -117,6 +121,7 @@
     cursor: pointer;
     font-weight: 200;
 }
+
 .movie-button {
     height: 40px;
     width: 200px;
@@ -127,8 +132,8 @@
     margin-top: 2%;
     animation: mymove 5s infinite;
     animation-delay: 2s;
-   
-  
+
+
 }
 
 .movie-button-x {
@@ -151,8 +156,8 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    gap: 20px;  
-    
+    gap: 20px;
+
 }
 
 .social-container li {
@@ -194,7 +199,7 @@
     .content-container {
         justify-content: flex-end;
         margin-bottom: 50px;
-        
+
     }
 
     .content-container h1 {
@@ -215,12 +220,17 @@
         display: none;
     }
 
+    .movie-button {
+        margin-top: 30px;
+    }
+
     .social-container {
         display: none;
     }
 
-    .divFoto,.divSister
-    .divEstreia {
+    .divFoto,
+    .divSister,
+    .secretButton {
         display: none;
     }
 }
